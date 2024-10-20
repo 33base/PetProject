@@ -9,7 +9,7 @@ app.include_router(healthcheck.router)
 
 if __name__ == "__main__":
     uvicorn.run(
-        "main.app",
+        "main:app",
         host=settings.HOST,
         port=settings.PORT,
         reload=settings.RELOAD
