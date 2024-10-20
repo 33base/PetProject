@@ -1,3 +1,8 @@
 .env
 External Libraries
 .idea
+ __pycache__/
+*.pyc
+*.log
+.env
+venv/
